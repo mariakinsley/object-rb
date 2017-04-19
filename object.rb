@@ -35,8 +35,10 @@ class Elevator
   end
   def cheery_greeting
     puts "I'm riding the elevator hoorray"
+    puts @random_floor
   end
 end
+
 car1 = Elevator.new(0)
 car1.go_up()
 car1.go_down()
